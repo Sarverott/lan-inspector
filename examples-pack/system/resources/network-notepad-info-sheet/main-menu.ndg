@@ -1,0 +1,52 @@
+Version 8.2
+Diagram_Title ""
+Notes1
+Notes2
+Page_Settings_Table Width Height Orientation Pos_X Pos_Y Draw_Scale Fine_Scale Created_By Create_Date Updated_By Update_Date Adjust_X Adjust_Y Page_Locked
+ page_settings 1500 1000 landscape 69 141 1 1 sett.sarverott 1970-01-01 sett.sarverott 1970-01-01 0 0 Unlocked
+Colours_Table Bkgnd Link_Text Grid Float_Foregnd Float_Backgnd
+ colours &hFFFFFF& &hFF0000& &hFEEDED& &h0& &hC0FFFF&
+Obj_Table Index Type X Y Caption_Lbl Float_text Hyperlink Parent Addr_Lbl X_scale Y_scale Layer Type_bits Rotate Options Backgnd Width Height Locked Toolset Var1 Var2
+ object 1 logo 171 56 0 ! ! 0 0 1 1 2 80 0 0 false 250 50 false 0 ! !
+ object 2 Procgreen 94 338 1 ! ! 0 0 100 1 2 128 0 0 false 8897 61 false 0 ! !
+ object 3 Procpink 68 162 3 ! ! 0 0 100 1 2 128 0 0 false 8897 61 false 0 ! !
+ object 4 Ts1 154 248 8 "Donec placerat sapien vitae nunc fermentum feugiat." A:\path\to\main\location\of\network\prospect\file.ndg 0 9 1 1 2 128 0 0 false 37 43 false 0 ! !
+Label_Table Index X Y Text Font_Name Size Bold Italic UL ST Colour Parent Type Backgnd Locked Rotate Ftranspcy Btranspcy Layer Style Xoffset Yoffset
+ label 1 c 0 "all machines (0)" "microsoft sans serif" 8 false false false false &h0& 2 flow &hFFFFFF& locked 0 255 0 0 !
+ label 2 n -30.5 ! ! ! ! ! false ! &h0& 2 ip ! ! 0 255 0 0 !
+ label 3 c 0 "map list (0)" "microsoft sans serif" 8 false false false false &h0& 3 flow &hFFFFFF& locked 0 255 0 0 !
+ label 4 n -30.5 ! ! ! ! ! false ! &h0& 3 ip ! ! 0 255 0 0 !
+ label 5 333 32 "legend of map<<crlf>>" "microsoft sans serif" 8 false false false false &h0& 0 ! &hFFFFFF& ! 0 255 0 0 !
+ label 6 s 23 00-00-00-00-00-00 ! ! ! ! true ! &hFF0000& 5 object ! ! 0 255 0 0 !
+Link_Table Index Obj1 Obj2 Style Hostname1_Lbl Hostname2_Lbl Addr1_Lbl Addr2_Lbl Comment1 Comment2 Xoffset1 Yoffset1 Xoffset2 Yoffset2 Node_List Align Layer
+Link_Styles_table Type Format Colour Style Width Misc Angle Style2 Length Endcap Join Startcap Dashcap Transpcy Align Secondary_Style start_cap_type variant width height x y end_cap_type variant width height x y
+ define_link "64K LL" 0 &hFF00& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "64k ISDN" 0 &hFF& 3 1 9 1 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link 10baseT 0 &h808080& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link 100baseT 0 &h808080& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "128K LL" 0 &hFF80FF& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "256K LL" 0 &hFFFF& 1 4 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "512K LL" 0 &h808080& 1 5 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "1M LL" 0 &hC0C0C0& 1 6 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "2M LL" 0 &h808080& 1 7 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link Fibre 0 &h0& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link Cable 1 &hFF00& 1 12 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link ADSL 1 &hFF8000& 1 12 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link ATM 1 &hC080FF& 1 12 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "64K LL2" 1 &hFF00& 1 12 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "128K LL2" 1 &hFF80FF& 1 14 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "256K LL2" 1 &hFFFF& 1 16 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "512K LL2" 1 &h808080& 1 18 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "1M LL2" 1 &hC0C0C0& 1 20 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "2M LL2" 1 &h808080& 1 22 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link backbone 0 &hC0C0C0& 1 3 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0
+Shapes_Table Name Type Variant Colour1 Transpcy1 Colour2 Transpcy2 Colour3 Transpcy3 Dim1 Dim2 FillX1 FillY1 FillX2 FillY2 Width Height Borderstyle Dashcap Antialias
+Script_Objects_Tables
+ script logo 250 50 0.1
+ path name box
+ path addrectangle 0 0 250 70
+ pen black_pen &h000000& 255 1
+ brush grey_brush &hA0A0A0& 255
+ brush white_brush &hFFFFFF& 255
+ fill box white_brush
+ draw box black_pen
